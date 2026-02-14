@@ -1,12 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
+body{
     background-color: rgba(196, 9, 9, 0.723);
     background-image: url("Saint2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Courier New', Courier, monospace;
+
 }
 
 #ma {
@@ -14,84 +12,76 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-    text-align: center;
+    height: 100vh;
 }
-
-#lol1 {
+#lol1{
+    text-align: center;
     background-color: rgba(199, 17, 47, 0.316);
     border-radius: 25px;
-    padding: 20px;
-    width: 100%;
-    max-width: 500px;
+    
 }
 
-#lol2 {
-    margin: 10px 0;
+#lol2{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
     background-color: rgba(190, 27, 13, 0.371);
     border-radius: 25px;
-    padding: 10px;
 }
 
-#name,
-#password {
-    width: 90%;
-    max-width: 400px;
+#name{
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     font-style: italic;
+    font-family: 'Courier New', Courier;
     background-color: rgba(255, 213, 213, 0.653);
     border-radius: 25px;
-    margin: 10px 0;
-    padding: 10px;
-    border: 2px solid rgb(213, 138, 178);
+    margin: 10px;
+    border-color: rgb(213, 138, 178);
+    border-top: rgb(194, 101, 155);
+    border-left: rgb(194, 101, 155);
+    border-right: rgb(194, 101, 155);
 }
 
-button {
-    width: 80%;
-    max-width: 300px;
-    font-size: 28px;
+#password{
+
+    text-align: center;
+    font-size: 25px;
     font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier;
+    background-color: rgba(255, 213, 213, 0.653);
+    border-radius: 25px;
+    margin: 10px;
+    border-color: rgb(213, 138, 178);
+    border-top: rgb(194, 101, 155);
+     border-left: rgb(194, 101, 155);
+    border-right: rgb(194, 101, 155);
+}
+
+button{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(207, 122, 122, 0.355);
     border-radius: 15px;
-    margin: 20px 0;
-    padding: 10px;
-    cursor: pointer;
-}
+    margin: 10px;
+    margin-top: 25px;
 
-#indice {
-    display: inline-block;
+}
+#indice{
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(255, 255, 255, 0.596);
     border-radius: 15px;
-    padding: 8px 15px;
-    margin: 20px 0;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    top: 50px;
     text-decoration: none;
     color: black;
-}
-
-/* 📱 Version mobile optimisée */
-@media (max-width: 480px) {
-
-    #lol1 {
-        padding: 15px;
-    }
-
-    #name,
-    #password {
-        font-size: 18px;
-    }
-
-    button {
-        font-size: 20px;
-    }
-
-    #indice {
-        font-size: 16px;
-    }
 }
