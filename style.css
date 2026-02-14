@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(196, 9, 9, 0.723);
+    background-image: url("Saint2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#ma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#lol1{
+    text-align: center;
+    background-color: rgba(199, 17, 47, 0.316);
+    border-radius: 25px;
+    
+}
+
+#lol2{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(190, 27, 13, 0.371);
+    border-radius: 25px;
+}
+
+#name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier;
+    background-color: rgba(255, 213, 213, 0.653);
+    border-radius: 25px;
+    margin: 10px;
+    border-color: rgb(213, 138, 178);
+    border-top: rgb(194, 101, 155);
+    border-left: rgb(194, 101, 155);
+    border-right: rgb(194, 101, 155);
+}
+
+#password{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier;
+    background-color: rgba(255, 213, 213, 0.653);
+    border-radius: 25px;
+    margin: 10px;
+    border-color: rgb(213, 138, 178);
+    border-top: rgb(194, 101, 155);
+     border-left: rgb(194, 101, 155);
+    border-right: rgb(194, 101, 155);
+}
+
+button{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(207, 122, 122, 0.355);
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 25px;
+
+}
+#indice{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    top: 50px;
+    text-decoration: none;
+    color: black;
+}
